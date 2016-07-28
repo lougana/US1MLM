@@ -1,0 +1,29 @@
+{
+  "name": "us1mlm",
+  "version": "1.0.0",
+  "description": "A recording and artist bootstrap theme website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lougana/US1MLM/"
+  },
+  "author": "Luis Magaña",
+  "license": "ISC",
+  "devDependencies": {
+    "beepbeep": "^1.2.0",
+    "bootstrap": "^3.3.6",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "pump": "^1.0.1"
+  }
+}
