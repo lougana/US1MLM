@@ -9098,6 +9098,10 @@ footer ul li a:hover img {
   #gallerySlider .placeholder img {
     width: 400px; } }
 
+.navbar-default a {
+  color: #840000;
+  font-weight: bold; }
+
 .featuredVideo-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -9146,3 +9150,7 @@ footer ul li a:hover img {
 
 .navbar-toggle .icon-bar {
   background-color: #840000; }
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: inherit; } }

@@ -3,3 +3,8 @@
     background-color: $red;
   }
 }
+@media (min-width: $screen-sm-min) {
+  .navbar-default {
+    background-color: inherit;
+  }
+}
