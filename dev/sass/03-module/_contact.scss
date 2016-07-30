@@ -1,0 +1,21 @@
+.contact {
+  background-color: #01062B;
+  padding: 80px 0px 100px;
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  .btn-lg {
+    @extend .musicSign__btn;
+    width: 50%;
+  }
+  label {
+    color: white;
+  }
+  .form-control {
+    font-size: 25px;
+  }
+  input {
+    height: 60px;
+  }
+}
