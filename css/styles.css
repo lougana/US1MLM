@@ -9139,6 +9139,9 @@ footer ul li a:hover img {
     background-color: #b08000;
     color: white; }
 
+.musicSign .form-group {
+  margin-bottom: 0px; }
+
 @media (min-width: 768px) {
   .musicSign__email {
     height: 90px;
