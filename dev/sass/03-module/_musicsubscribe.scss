@@ -1,0 +1,41 @@
+.musicSign {
+  [class^="col"] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  &__email {
+    display:inline-block;
+    border-radius: 0px;
+    background-color: #F7F7F7;
+    color: $grey;
+    font-weight: bold;
+    height: 40px;
+  }
+  &__btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    background-color: $gold;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    &:hover {
+      background-color: darken($gold, 5%);
+      color: white;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .musicSign {
+    &__email {
+      height: 90px;
+      font-size: 25px;
+      padding-left: 140px;
+    }
+    &__btn {
+      height: 90px;
+      font-size: 25px;
+    }
+  }
+}

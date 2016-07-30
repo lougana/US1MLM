@@ -9110,3 +9110,36 @@ footer ul li a:hover img {
     left: 0;
     width: 100%;
     height: 100%; }
+
+.musicSign [class^="col"] {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.musicSign__email {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #F7F7F7;
+  color: #747474;
+  font-weight: bold;
+  height: 40px; }
+
+.musicSign__btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 0px;
+  background-color: #C99300;
+  font-weight: bold;
+  border: 0px;
+  color: white; }
+  .musicSign__btn:hover {
+    background-color: #b08000;
+    color: white; }
+
+@media (min-width: 768px) {
+  .musicSign__email {
+    height: 90px;
+    font-size: 25px;
+    padding-left: 140px; }
+  .musicSign__btn {
+    height: 90px;
+    font-size: 25px; } }
