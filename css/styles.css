@@ -9102,6 +9102,11 @@ footer ul li a:hover img {
   color: #840000;
   font-weight: bold; }
 
+.about h2 {
+  color: white;
+  text-align: center;
+  padding-top: 20px; }
+
 @media (max-width: 768px) {
   h1.navbar-brand_ {
     margin-left: 70px; } }
