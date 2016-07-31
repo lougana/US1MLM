@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="css/styles.css" >
 <!--JS-->
 <script src="js/jquery.js"></script>
+<script src="js/TMForm.js"></script>
 <script src="js/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
@@ -107,7 +108,8 @@ $(window).load(function() {
 	</div>
 </section>
 <div class="global">
-<section class="musicSign">
+<!-- NEWSLETTER SIGUP  -->
+<!-- <section class="musicSign">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-9 col-sm-10">
@@ -122,36 +124,11 @@ $(window).load(function() {
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="about">
-	<article class="slider">
-		<div class="camera_wrap">
-			<div data-src="img/picture1.jpg">
-				<div class="camera-caption fadeIn">
-					<p class="title1">Stop at the world&apos;s</p>
-					<p class="title2">premier recording studio</p>
-					<p class="description">Lorem ipsum dolor sit amet,consectetad ipis ctets.Tincidunt dolor nunc vule putate ulr ipco secte. Donec
-						<br>sempert laciniate ultricieupien disse eltel come lect fringi sollicil ludin dolor necamet quam. Donec aliqu
-						<br>accumsan condimentu.Nullam ut lacus adipiscing ipsum molestie euismod.</p><a href="#" class="btn-default btn1">Read more</a></div>
-			</div>
-			<div data-src="img/picture2.jpg">
-				<div class="camera-caption fadeIn">
-					<p class="title1">A great way to share</p>
-					<p class="title2">music with people</p>
-					<p class="description">Lorem ipsum dolor sit amet,consectetad ipis ctets.Tincidunt dolor nunc vule putate ulr ipco secte. Donec
-						<br>sempert laciniate ultricieupien disse eltel come lect fringi sollicil ludin dolor necamet quam. Donec aliqu
-						<br>accumsan condimentu.Nullam ut lacus adipiscing ipsum molestie euismod.</p><a href="#" class="btn-default btn1">Read more</a></div>
-			</div>
-			<div data-src="img/picture2.jpg">
-				<div class="camera-caption fadeIn">
-					<p class="title1">Great service and expertise</p>
-					<p class="title2">in everything we do</p>
-					<p class="description">Lorem ipsum dolor sit amet,consectetad ipis ctets.Tincidunt dolor nunc vule putate ulr ipco secte. Donec
-						<br>sempert laciniate ultricieupien disse eltel come lect fringi sollicil ludin dolor necamet quam. Donec aliqu
-						<br>accumsan condimentu.Nullam ut lacus adipiscing ipsum molestie euismod.</p><a href="#" class="btn-default btn1">Read more</a></div>
-			</div>
-		</div>
-	</article>
+	<div class="aboutContainer">
+		<img class="img-responsive" src="img/work-hard.jpg" alt="" />
+	</div>
 </section>
 <section class="iconBox">
 	<div class="container">
@@ -210,49 +187,6 @@ $(window).load(function() {
 		</div>
 	</div>
 </section>
-<div class="container padBot">
-	<div class="row">
-		<article class="col-lg-3 col-md-3 col-sm-12 worksBox">
-			<p class="title">Latest works</p>
-			<p class="descrip">dolore ipsume</p>
-			<h3>Mes cuml dia sed inenias cet inger lot aliiqtes</h3>
-			<p>Mes cuml dia sed in lacus ut eniascet ing erto aliiqt es site amet eismod ictorligulate ameti dapibus ticdu nt mtsen.</p>
-		</article>
-		<article class="col-lg-3 col-md-3 col-sm-4">
-			<div class="thumb-pad3">
-				<div class="thumbnail">
-					<figure><img src="img/page1_pic1.jpg" alt=""></figure>
-					<div class="caption">
-						<p class="title">Mike patton band</p>
-						<p class="description">ipsum commete</p>
-					</div>
-				</div>
-			</div>
-		</article>
-		<article class="col-lg-3 col-md-3 col-sm-4">
-			<div class="thumb-pad3">
-				<div class="thumbnail">
-					<figure><img src="img/page1_pic2.jpg" alt=""></figure>
-					<div class="caption">
-						<p class="title">Lisa farlow</p>
-						<p class="description">ipsum commete</p>
-					</div>
-				</div>
-			</div>
-		</article>
-		<article class="col-lg-3 col-md-3 col-sm-4">
-			<div class="thumb-pad3">
-				<div class="thumbnail">
-					<figure><img src="img/page1_pic3.jpg" alt=""></figure>
-					<div class="caption">
-						<p class="title">dance and move</p>
-						<p class="description">ipsum commete</p>
-					</div>
-				</div>
-			</div>
-		</article>
-	</div>
-</div>
 <section class="carouselBox">
 	<div class="container">
 		<div class="row">
@@ -260,16 +194,14 @@ $(window).load(function() {
 				<div class="list_carousel2 responsive clearfix">
 					<ul id="foo2">
 						<li>
-							<p>&ldquo; Lorem ipsum dolor sit amet, consect etur adipiscing elit. Vestibulum ut tortor urnati dunt dolor. Nunc vulputate
-								<br>ultrices con sect etur donec semper lacinia ultri dolore cie
-								<br>lorem ipsum commete. &rdquo;</p>
+							<p>&ldquo; Nothing but great things to say about this company on time efficient and always professional,
+								<br>deffinatley doing more work with them in the future! &rdquo;</p>
 							<a href="#">Jack Calso</a>
 						</li>
 						<li>
-							<p>&ldquo; Lorem ipsum dolor sit amet, consect etur adipiscing elit. Vestibulum ut tortor urnati dunt dolor. Nunc vulputate
-								<br>ultrices con sect etur donec semper lacinia ultri dolore cie
-								<br>lorem ipsum commete. &rdquo;</p>
-							<a href="#">Jack Calso</a>
+							<p>&ldquo; Thier video production is exceptional, high quality product with high
+								<br>quality results nothing more could be said about US1MLM &rdquo;</p>
+							<a href="#">Rick Santore</a>
 						</li>
 					</ul>
 				</div>
@@ -285,25 +217,35 @@ $(window).load(function() {
 	<div class="container">
 		<div class="row">
 			<h2>When Your Ready, We're Ready</h2>
-			<form>
-		  <div class="form-group col-xs-12 col-sm-6">
-		    <label class="show" for="exampleInputName2">Name</label>
-		    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
-		  </div>
-		  <div class="form-group col-xs-12 col-sm-6">
-		    <label class="show" for="exampleInputEmail2">Email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-		  </div>
-			<div class="form-group col-xs-12">
-				<label class="show" for="examplemessage2">Message</label>
-				<textarea class="form-control" rows="10"></textarea>
-			</div>
-			<div class="col-xs-12">
-				<button type="submit" class="btn btn-default btn-lg center-block">CONTACT US</button>
-			</div>
+			<form id="contact-form">
+				<div class="success-message">Contact form submitted.</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label class="name">
+						<input type="text" class="form-control" data-constraints="@Required @JustLetters" placeholder="Name">
+						<span class="empty-message">*This field is required.</span>
+						<span class="error-message">*This is not a valid name.</span>
+					</label>
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label class="email">
+						<input type="text" class="form-control" data-constraints="@Required @Email" placeholder="Email">
+						<span class="empty-message">*This field is required.</span>
+						<span class="error-message">*This is not a valid email.</span>
+					</label>
+				</div>
+				<div class="form-group col-xs-12">
+					<label class="message">
+						<textarea class="form-control" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+						<span class="empty-message">*This field is required.</span>
+						<span class="error-message">*The message is too short.</span>
+					</label>
+				</div>
+				<div class="col-xs-12">
+					<button type="submit" data-type="submit" class="btn btn-default btn-lg center-block">CONTACT US</button>
+				</div>
 		</div>
 	</div>
-</form>
+	</form>
 </section>
 </div>
 <!--footer-->
@@ -311,7 +253,7 @@ $(window).load(function() {
 		<div class="container">
 				<div class="row">
 						<article class="col-lg-12 col-md-12 col-sm-12">
-								<p><span>RECO</span> &copy; <em id="copyright-year"></em> | <a href="index-5.html">Privacy Policy</a></p>
+								<p><span>US1MLM</span> &copy; <em id="copyright-year"></em></p>
 								<ul>
 										<li><a href="#"><img src="img/follow_icon1.png" alt=""></a></li>
 										<li><a href="#"><img src="img/follow_icon2.png" alt=""></a></li>
@@ -321,7 +263,6 @@ $(window).load(function() {
 						</article>
 				</div>
 		</div>
-	More Recording Studio Website Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/recording-studio-website-templates/" target="_blank">TemplateMonster.com</a>
 </footer>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
