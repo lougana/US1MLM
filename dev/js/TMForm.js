@@ -124,7 +124,7 @@
 							,fax:getValue($('label.fax input'))
 							,state:getValue($('label.state input'))
 							,message:getValue($('label.message textarea'))
-							,owner_email:opt.ownerEmail||'louweezjr@gmail.com'
+							,owner_email:opt.ownerEmail||'#'
 							,stripHTML:opt.stripHTML
 						}
 						,success: function(e){
@@ -252,10 +252,10 @@ regula.custom({
 })
 $(window).load(function(){
         $('#contact-form').TMForm({
-            ownerEmail:'louweezjr@gmail.com'
+            ownerEmail:'info@luismagana.me'
         })
         $('#contact-form2').TMForm({
-            ownerEmail:'louweezjr@gmail.com'
+            ownerEmail:'info@luismagana.me'
         })
 
     })

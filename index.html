@@ -23,6 +23,7 @@
 <script src="js/jquery.mobilemenu.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/jquery.equalheights.js"></script>
+<script src="dev/js/TMForm.js"></script>
 <script src="js/camera.js"></script>
 <!--[if (gt IE 9)|!(IE)]><!-->
 			<script src="js/jquery.mobile.customized.min.js"></script>
@@ -285,21 +286,31 @@ $(window).load(function() {
 	<div class="container">
 		<div class="row">
 			<h2>When Your Ready, We're Ready</h2>
-			<form>
+			<form id="contact-form">
+			<div class="success-message">Contact form submitted.</div>
 		  <div class="form-group col-xs-12 col-sm-6">
-		    <label class="show" for="exampleInputName2">Name</label>
-		    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+		    <label class="name">
+			    <input type="text" class="form-control" data-constraints="@Required @JustLetters" placeholder="Name">
+					<span class="empty-message">*This field is required.</span>
+					<span class="error-message">*This is not a valid name.</span>
+				</label>
 		  </div>
 		  <div class="form-group col-xs-12 col-sm-6">
-		    <label class="show" for="exampleInputEmail2">Email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+		    <label class="email">
+			    <input type="text" class="form-control" data-constraints="@Required @Email" placeholder="Email">
+					<span class="empty-message">*This field is required.</span>
+					<span class="error-message">*This is not a valid email.</span>
+				</label>
 		  </div>
 			<div class="form-group col-xs-12">
-				<label class="show" for="examplemessage2">Message</label>
-				<textarea class="form-control" rows="10"></textarea>
+				<label class="message">
+					<textarea class="form-control" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+					<span class="empty-message">*This field is required.</span>
+					<span class="error-message">*The message is too short.</span>
+				</label>
 			</div>
 			<div class="col-xs-12">
-				<button type="submit" class="btn btn-default btn-lg center-block">CONTACT US</button>
+				<button type="submit" data-type="submit" class="btn btn-default btn-lg center-block">CONTACT US</button>
 			</div>
 		</div>
 	</div>
