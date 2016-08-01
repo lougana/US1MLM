@@ -252,10 +252,10 @@ regula.custom({
 })
 $(window).load(function(){
         $('#contact-form').TMForm({
-            ownerEmail:'info@luismagana.me'
+            ownerEmail:'us1mlm@gmail.com'
         })
         $('#contact-form2').TMForm({
-            ownerEmail:'info@luismagana.me'
+            ownerEmail:'us1mlm@gmail.com'
         })
 
     })
