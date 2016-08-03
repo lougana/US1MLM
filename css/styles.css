@@ -9098,6 +9098,12 @@ footer ul li a:hover img {
   #gallerySlider .placeholder img {
     width: 400px; } }
 
+header {
+  border-bottom: 16px solid #840000; }
+
+.navbar-toggle {
+  margin-top: -22px; }
+
 .navbar-default a {
   color: #840000;
   font-weight: bold; }
@@ -9184,3 +9190,6 @@ footer ul li a:hover img {
     font-size: 25px; }
   .contact input {
     height: 60px; }
+
+.list_carousel2 #foo2 > li a {
+  color: white; }
