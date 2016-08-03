@@ -9099,13 +9099,13 @@ footer ul li a:hover img {
     width: 400px; } }
 
 header {
-  border-bottom: 16px solid #840000; }
+  border-bottom: 16px solid #ff0302; }
 
 .navbar-toggle {
   margin-top: -22px; }
 
 .navbar-default a {
-  color: #840000;
+  color: #ff0302;
   font-weight: bold; }
 
 .featuredVideo h2 {
@@ -9174,7 +9174,7 @@ header {
   position: absolute;
   right: 0; }
   .navbar-toggle .icon-bar {
-    background-color: #840000; }
+    background-color: #ff0302; }
 
 @media (min-width: 768px) {
   .navbar-default {
@@ -9240,7 +9240,7 @@ header {
   padding: 10px 0; }
 
 .section-white {
-  background-color: #840000;
+  background-color: #ff0302;
   color: #555; }
   .section-white .container-fluid {
     padding-left: 0px;
