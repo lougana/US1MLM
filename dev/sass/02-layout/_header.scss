@@ -24,3 +24,9 @@ header {
     padding-top: 50px;
   }
 }
+
+@media (max-width: $screen-sm-min) {
+  header {
+    padding-bottom: 95px;
+  }
+}

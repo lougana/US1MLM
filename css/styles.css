@@ -9119,6 +9119,10 @@ header {
     margin: 0 auto;
     padding-top: 50px; } }
 
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 95px; } }
+
 .iconBox {
   margin-bottom: 0px; }
 
