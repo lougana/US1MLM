@@ -9115,7 +9115,8 @@ header {
 
 @media (max-width: 768px) {
   h1.navbar-brand_ {
-    margin-left: 70px; } }
+    display: block;
+    margin: 0 auto; } }
 
 .iconBox {
   margin-bottom: 0px; }
@@ -9169,8 +9170,11 @@ header {
     height: 90px;
     font-size: 25px; } }
 
-.navbar-toggle .icon-bar {
-  background-color: #840000; }
+.navbar-toggle {
+  position: absolute;
+  right: 0; }
+  .navbar-toggle .icon-bar {
+    background-color: #840000; }
 
 @media (min-width: 768px) {
   .navbar-default {

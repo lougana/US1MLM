@@ -19,6 +19,7 @@ header {
 }
 @media (max-width: $screen-sm-min) {
   h1.navbar-brand_ {
-    margin-left: 70px;
+    display: block;
+    margin: 0 auto;
   }
 }
