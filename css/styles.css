@@ -9116,7 +9116,8 @@ header {
 @media (max-width: 768px) {
   h1.navbar-brand_ {
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    padding-top: 50px; } }
 
 .iconBox {
   margin-bottom: 0px; }
