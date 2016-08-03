@@ -1,10 +1,15 @@
+header {
+  border-bottom: 16px solid $red;
+}
+.navbar-toggle {
+  margin-top: -22px;
+}
 .navbar-default {
   a {
     color: $red;
     font-weight: bold;
   }
 }
-
 .featuredVideo {
   h2 {
     color: white;
