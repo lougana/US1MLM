@@ -116,11 +116,11 @@ $(window).load(function() {
 </section>
 <div class="global">
 <!-- NEWSLETTER SIGUP  -->
-<!-- <section class="musicSign">
+<section class="musicSign">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-9 col-sm-10">
-				<form>
+				<form id="ajax-contact" method="post" action="mailer.php">
 					<div class="form-group">
 						<input type="email" class="form-control musicSign__email" placeholder="Stay Current &amp; Sign Up">
 					</div>
@@ -131,7 +131,7 @@ $(window).load(function() {
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 <section id="services" class="iconBox">
 	<div class="container">
 		<div class="row">
@@ -301,5 +301,6 @@ $(window).load(function() {
 </footer>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
