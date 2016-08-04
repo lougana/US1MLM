@@ -28,28 +28,9 @@ gulp.task('serve', ['sass', 'jade','compress'], function() {
   });
 
   gulp.watch("./dev/js/*.js", ['compress']);
-  gulp.watch("./dev/sass/**/*.scss", ['sass']).on('change', browserSync.reload);
+  gulp.watch("dev/sass/**/*.scss", ['sass']).on('change', browserSync.reload);
   gulp.watch("./build/templates/**/*.jade", ['jade']);
   gulp.watch("./*.html").on('change', browserSync.reload);
-});
-
-// Compile sass into CSS & auto-inject into browsers
-gulp.task('sass', function() {
-  return gulp.src("./dev/sass/**/*.scss")
-    .pipe(plumber({
-      errorHandler: onError
-    }))
-    .pipe(sass())
-		.pipe(autoprefixer({
-			browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6']
-			}))
-    .pipe(gulp.dest("./css"))
-    .pipe(cssmin()) // min css
-    .pipe(rename({ // rename file to styles.min.css
-        suffix:'.min'
-    }))
-    .pipe(gulp.dest("./css"))
-    .pipe(browserSync.stream());
 });
 
 // Jade Task
@@ -76,5 +57,23 @@ gulp.task('compress', function (cb) {
   );
 });
 
+// Compile sass into CSS & auto-inject into browsers
+gulp.task('sass', function() {
+  return gulp.src("./dev/sass/**/*.scss")
+    .pipe(plumber({
+      errorHandler: onError
+    }))
+    .pipe(sass())
+		.pipe(autoprefixer({
+			browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6']
+			}))
+    .pipe(gulp.dest("./css"))
+    .pipe(cssmin()) // min css
+    .pipe(rename({ // rename file to styles.min.css
+        suffix:'.min'
+    }))
+    .pipe(gulp.dest("./css"))
+    .pipe(browserSync.stream());
+});
 
 gulp.task('default', ['serve']);
