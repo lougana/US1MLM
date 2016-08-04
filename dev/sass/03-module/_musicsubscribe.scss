@@ -50,6 +50,11 @@
        -moz-border-radius: 4px;
             border-radius: 4px;
   }
+  form {
+    label {
+      display: inline;
+    }
+  }
 }
 
 @media (min-width: $screen-sm-min) {

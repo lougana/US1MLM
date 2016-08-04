@@ -9184,6 +9184,9 @@ header {
   border: 1px solid rgba(185, 74, 72, 0.3);
   border-radius: 4px; }
 
+.musicSign form label {
+  display: inline; }
+
 @media (min-width: 768px) {
   .musicSign__email {
     height: 90px;
