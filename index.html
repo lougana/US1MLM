@@ -120,9 +120,13 @@ $(window).load(function() {
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-9 col-sm-10">
+				<div id="form-messages">
+					
+				</div>
 				<form id="ajax-contact" method="post" action="mailer.php">
 					<div class="form-group">
-						<input type="email" class="form-control musicSign__email" placeholder="Stay Current &amp; Sign Up">
+						<label for="email"></label>
+						<input id="email" type="email" class="form-control musicSign__email" placeholder="Stay Current &amp; Sign Up">
 					</div>
 				</form>
 			</div>
